@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API =
-  "http://localhost:5001/api/attendance";
+  `${import.meta.env.VITE_API_URL}/api/attendance`;
 
 // START SESSION
 export const startAttendanceSession =

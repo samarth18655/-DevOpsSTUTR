@@ -1,4 +1,4 @@
-import Classroom from "../models/Classrooms.js";
+import Classroom from "../models/classrooms.js";
 
 // CREATE CLASSROOM
 export const createClassroom =

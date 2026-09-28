@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API =
-  "http://localhost:5001/api/classrooms";
+  `${import.meta.env.VITE_API_URL}/api/classrooms`;
 
 // GET ALL CLASSROOMS
 export const getClassrooms =
